@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="../styles.css">
     <title>MBC Helper</title>
 </head>
-<body class="">
+<body class="popup-body ">
     <div id="root" class="root">
-
         <div class="app">
             <div class="header">
-                <div class="section dark-section">
+                <div class="section dark-section border-none">
                     <h2 class="title dark-title">MBC-d.ru Extension</h2>
                     <!-- <div class="label">С</div> -->
                 </div>
@@ -20,16 +19,19 @@
                 <div class="loading">загрузка...</div>
             </div>
             <div data-id="if_ready" class="content">
-                <div data-id="if_has_no_token" class="section">
-                    <div class="title">Состояние</div>
-                    <div class="label">Не указан токен, необходимый для авторизации на сайте <a data-id="mbcd_link"></a>, для чтения и записи данных группы.</div>
+                <a href="https://mbc-d.ru/dashboard/headman/homework?act=add-homework" target="_blank">
+                    <button class="add-hw-btn">Добавить ДЗ</button>
+                </a>
+                <div data-id="if_has_no_token" class="section dark-section border-none">
+                    <div class="title dark-title">Состояние</div>
+                    <div class="label dark-title-3">Не указан токен, необходимый для авторизации на сайте <a data-id="mbcd_link"></a>, для чтения и записи данных группы.</div>
                 </div>
-                <div data-id="if_has_token" class="section">
-                    <div class="title">Состояние</div>
-                    <div class="label">Токен указан, расширения готово к использованию.</div>
+                <div data-id="if_has_token" class="section dark-section border-none">
+                    <div class="title dark-title">Состояние</div>
+                    <div class="label dark-title-3">Токен указан, расширения готово к использованию.</div>
                 </div>
-                <div class="section">
-                    <button data-id="go_to_options_button">Перейти в настройки</button>
+                <div class="section dark-section border-none">
+                    <button data-id="go_to_options_button" class="go-to-setting-button">Перейти в настройки</button>
                 </div>
             </div>
             <!-- <div class="footer">контакты</div> -->

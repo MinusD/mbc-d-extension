@@ -7,9 +7,16 @@ body{
     --secondary-color: rgb(231, 231, 231);
 }
 
-.options-body{
+.options-body {
     margin: 0;
     background-color: #111827;
+    /*background-color: var(--secondary-color);*/
+    
+}
+
+.popup-body {
+    margin: 0;
+    background-color: #111827
     /*background-color: var(--secondary-color);*/
     
 }
@@ -171,6 +178,10 @@ button.secondary{
     font-family: 'Otomanopee One', sans-serif;
 }
 
+.dark-title-3 {
+    color: #D1D5DB;
+}
+
 .bold-title {
     font-family: 'Otomanopee One', sans-serif;
 }
@@ -188,7 +199,27 @@ button.secondary{
     background-color: #3730a3;
     color: #bfdbfe;
     line-height: 1.25rem;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;   
+    border: 1px solid #6B7280;
+}
+.dark-input:focus{
+    border: 1px solid #D1D5DB;
+}
+
+.border-none{
+    border-radius: 0;   
+}
+
+.go-to-setting-button{
+    background: #374151;
+    color: #E5E7EB;
+    /*padding: 10px 20px;*/
+    border-radius: 8px;
+    width: 100%;
+}
+.add-hw-btn{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #1F2937;
+    color: #F9FAFB;
 }
