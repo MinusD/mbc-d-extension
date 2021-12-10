@@ -1,7 +1,12 @@
 {
     "manifest_version": 3,
     "name": "MBC-d Web Helper",
-    "version": "0.42",
+    "version": "0.43",
+    "icons": { 
+        "16": "src/imgs/logo16.png",
+        "48": "src/imgs/logo48.png",
+       "128": "src/imgs/logo128.png" },
+
     "action": {
         "default_popup": "src/popup/popup.html"
     },
@@ -18,16 +23,14 @@
     ],
     "host_permissions": [
         "https://events.webinar.ru/",
-        "https://mbc-d.ru/",
-        "https://www.google.com/"
+        "https://mbc-d.ru/"
     ],
     "background": {
         "service_worker": "src/background.js"
     },
     "externally_connectable": {
         "matches": [
-            "https://events.webinar.ru/*",
-            "https://www.google.com/*"
+            "https://events.webinar.ru/*"
         ]
     }
 }
