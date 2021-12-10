@@ -5,14 +5,16 @@
     "action": {
         "default_popup": "src/popup/popup.html"
     },
-    "homepage_url":"https://github.com/AshenHermit/webinar-people-scanner",
+    "homepage_url":"https://github.com/MinusD/mbc-d-extension",
     "options_page": "src/options/options.html",
     "permissions": [
         "cookies",
-        "http://*/*",
-        "https://*/*",
         "history",
-        "runtime", "app", "storage", "webNavigation", "scripting", "tabs", "browserAction"
+        "app", 
+        "storage", 
+        "webNavigation", 
+        "scripting", 
+        "tabs"
     ],
     "host_permissions": [
         "https://events.webinar.ru/",

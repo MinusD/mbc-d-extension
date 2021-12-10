@@ -22,7 +22,7 @@ async function getValuesFromStorage(keys_translation){
             keys.forEach(key=>{
                 if(key in data){
                     dict[keys_translation[key]] = data[key]
-                }else{
+                } else {
                     console.error(`no field "${key}" in storage`)
                     failed = true
                 }

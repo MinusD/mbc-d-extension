@@ -5,6 +5,7 @@ body{
 body{
     margin: 0;
     background-color: var(--secondary-color);
+    
 }
 
 .root{
@@ -52,7 +53,16 @@ body{
     text-align: center;
 }
 .section.save-status{    
+    background: #333;
+    color: #E086D3;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+    /*
     background-color: rgb(255, 255, 255);
+    border: solid 10px;
+    border-radius: 10px 40px 40px 10px;*/
+
 }
 .folding{
     transition: max-height 0.1s;

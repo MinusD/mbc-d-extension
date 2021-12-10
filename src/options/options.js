@@ -44,10 +44,10 @@ class OptionsScreen extends Client{
         setPropsOfId("show_more_options_button", {onclick: this.showMoreOptions.bind(this)})
 
         setStylesOfId("more_options_folder", {
-            maxHeight: this.moreOptionsShown?'1000px':'0px'
+            maxHeight: this.moreOptionsShown ? '1000px':'0px'
         })
         setStylesOfId("save_status", {
-            maxHeight: this.changesSaved?'100px':'0px'
+            maxHeight: this.changesSaved ? '100px':'0px'
         })
     }
 }
