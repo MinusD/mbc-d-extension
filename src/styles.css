@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
 body{
     --secondary-color: rgb(231, 231, 231);
 }
 
-body{
+.options-body{
     margin: 0;
-    background-color: var(--secondary-color);
+    background-color: #111827;
+    /*background-color: var(--secondary-color);*/
     
 }
 
@@ -33,7 +39,6 @@ body{
     text-align: center;
 }
 
-
 .content{
     
 }
@@ -53,10 +58,10 @@ body{
     text-align: center;
 }
 .section.save-status{    
-    background: #333;
-    color: #E086D3;
+    background: #1F2937;
+    color: #E5E7EB;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     
     /*
     background-color: rgb(255, 255, 255);
@@ -154,4 +159,37 @@ button.secondary{
     background-color: transparent;
     box-shadow: none;
     color: rgb(129, 129, 129);
+}
+
+.dark-title {
+    font-size: 2.2rem;
+    color: #F3F4F6;
+    font-family: 'Fuzzy Bubbles', cursive;
+}  
+
+.dark-title-2 {
+    color: #D1D5DB;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.bold-title {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.dark-section{
+    border-radius: 10px;
+    font-size: medium;
+    background-color: #1F2937;
+    color: #F9FAFB;
+    /*font-family: 'Cabin', sans-serif;*/
+}
+
+.dark-input{
+    border-width: 1px;
+    background-color: #3730a3;
+    color: #bfdbfe;
+    line-height: 1.25rem;
+    border-radius: 10px;
+    
+    
 }
